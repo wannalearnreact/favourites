@@ -1,0 +1,21 @@
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: black solid 2px;
+}
+.card.favourite {
+    background-color: yellow;
+}
